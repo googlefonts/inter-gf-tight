@@ -4,6 +4,8 @@ letter spacing (like for example Google Workspace.)
 Please consider using standard Inter in scenarios where you can control spacing
 (like on web pages, in Figma, Adobe Illustrator, etc.)
 
+![Inter vs Inter Tight sample](sample.png)
+
 Space differences in UPM, compared to Inter:
 
 - Thin:      0 U
