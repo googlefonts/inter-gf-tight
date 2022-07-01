@@ -1,0 +1,186 @@
+{
+color = (204,240,242,1);
+glyphname = naira;
+layers = (
+{
+layerId = "C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-2,946,l),
+(-2,800,l),
+(1482,800,l),
+(1482,946,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-2,632,l),
+(-2,486,l),
+(1482,486,l),
+(1482,632,l)
+);
+},
+{
+pos = (18,0);
+ref = N;
+}
+);
+width = 1480;
+},
+{
+layerId = "5C20EF92-B63D-42A8-8878-93C2863E0093";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,946,l),
+(0,800,l),
+(1482,800,l),
+(1482,946,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,632,l),
+(0,486,l),
+(1482,486,l),
+(1482,632,l)
+);
+},
+{
+pos = (26,0);
+ref = N;
+}
+);
+width = 1482;
+},
+{
+layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
+shapes = (
+{
+closed = 1;
+nodes = (
+(62,946,l),
+(40,800,l),
+(1522,800,l),
+(1546,946,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(10,632,l),
+(-14,486,l),
+(1470,486,l),
+(1494,632,l)
+);
+},
+{
+pos = (18,0);
+ref = N;
+}
+);
+width = 1480;
+},
+{
+layerId = "D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,946,l),
+(40,800,l),
+(1524,800,l),
+(1546,946,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(10,632,l),
+(-12,486,l),
+(1472,486,l),
+(1494,632,l)
+);
+},
+{
+pos = (24,0);
+ref = N;
+}
+);
+width = 1482;
+},
+{
+layerId = "B1F27B51-9973-4381-9301-4FE46FE1CA59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(62,954,l),
+(62,908,l),
+(1544,908,l),
+(1544,954,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(62,582,l),
+(62,536,l),
+(1544,536,l),
+(1544,582,l)
+);
+},
+{
+alignment = -1;
+pos = (12,0);
+ref = N;
+}
+);
+width = 1606;
+},
+{
+layerId = "200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,954,l),
+(120,908,l),
+(1602,908,l),
+(1612,954,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,582,l),
+(58,536,l),
+(1542,536,l),
+(1548,582,l)
+);
+},
+{
+alignment = -1;
+pos = (12,0);
+ref = N;
+}
+);
+width = 1606;
+}
+);
+tags = (
+"TODO-opsz"
+);
+unicode = 8358;
+userData = {
+interface.gridadjust.original = "{'width': 2244.0, 'leftMargin': 41, 'rightMargin': 41.0}";
+"interface.width-adjustments" = (
+-16
+);
+};
+}

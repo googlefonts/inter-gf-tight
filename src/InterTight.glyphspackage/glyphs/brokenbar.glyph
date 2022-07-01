@@ -1,0 +1,201 @@
+{
+color = (204,240,242,1);
+glyphname = brokenbar;
+layers = (
+{
+guides = (
+{
+pos = (404,832);
+},
+{
+pos = (656,1116);
+},
+{
+pos = (656,552);
+}
+);
+layerId = "C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265";
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,-280,l),
+(304,-280,l),
+(304,402,l),
+(144,402,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(144,1490,l),
+(144,812,l),
+(304,812,l),
+(304,1490,l)
+);
+}
+);
+width = 448;
+},
+{
+guides = (
+{
+pos = (684,1092);
+},
+{
+pos = (720,576);
+}
+);
+layerId = "5C20EF92-B63D-42A8-8878-93C2863E0093";
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,-280,l),
+(560,-280,l),
+(560,424,l),
+(206,424,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(206,1490,l),
+(206,788,l),
+(560,788,l),
+(560,1490,l)
+);
+}
+);
+width = 766;
+},
+{
+guides = (
+{
+pos = (436,832);
+},
+{
+pos = (828,1116);
+},
+{
+pos = (548,552);
+}
+);
+layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
+shapes = (
+{
+closed = 1;
+nodes = (
+(4,-280,l),
+(164,-280,l),
+(278,402,l),
+(118,402,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(298,1490,l),
+(184,812,l),
+(344,812,l),
+(458,1490,l)
+);
+}
+);
+width = 448;
+},
+{
+guides = (
+{
+pos = (888,1092);
+},
+{
+pos = (752,576);
+}
+);
+layerId = "D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,-280,l),
+(422,-280,l),
+(538,424,l),
+(182,424,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(360,1490,l),
+(244,788,l),
+(598,788,l),
+(714,1490,l)
+);
+}
+);
+width = 766;
+},
+{
+layerId = "B1F27B51-9973-4381-9301-4FE46FE1CA59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,-280,l),
+(214,-280,l),
+(214,386,l),
+(168,386,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(168,1490,l),
+(168,826,l),
+(214,826,l),
+(214,1490,l)
+);
+}
+);
+width = 382;
+},
+{
+layerId = "200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(28,-280,l),
+(74,-280,l),
+(188,386,l),
+(142,386,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(322,1490,l),
+(210,826,l),
+(258,826,l),
+(368,1490,l)
+);
+}
+);
+width = 382;
+}
+);
+tags = (
+"TODO-opsz"
+);
+unicode = 166;
+userData = {
+com.typemytype.robofont.guideline.magnetic.7XIyiEEc60 = 5;
+com.typemytype.robofont.guideline.magnetic.MxvJVkfsW3 = 5;
+com.typemytype.robofont.guideline.magnetic.YQqXyZ7Bm4 = 5;
+interface.gridadjust.original = "{'width': 690, 'leftMargin': 199, 'rightMargin': 216}";
+"interface.width-adjustments" = (
+-16
+);
+};
+}

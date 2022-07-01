@@ -1,0 +1,207 @@
+{
+color = 1;
+glyphname = equal.sups;
+kernLeft = approxequal.sups;
+kernRight = approxequal.sups;
+layers = (
+{
+layerId = "C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265";
+shapes = (
+{
+closed = 1;
+nodes = (
+(700,1198,l),
+(700,1330,l),
+(104,1330,l),
+(104,1198,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(700,908,l),
+(700,1038,l),
+(104,1038,l),
+(104,908,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+weight = -50;
+width = 66.6;
+};
+};
+width = 802;
+},
+{
+layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,1198,l),
+(830,1330,l),
+(232,1330,l),
+(210,1198,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(760,908,l),
+(782,1038,l),
+(184,1038,l),
+(164,908,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+weight = -50;
+width = 66.6;
+};
+};
+width = 808;
+},
+{
+layerId = "5C20EF92-B63D-42A8-8878-93C2863E0093";
+shapes = (
+{
+closed = 1;
+nodes = (
+(800,1178,l),
+(800,1396,l),
+(80,1396,l),
+(80,1178,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(800,850,l),
+(800,1068,l),
+(80,1068,l),
+(80,850,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+weight = -300;
+width = 66.6;
+};
+};
+width = 880;
+},
+{
+layerId = "D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(904,1178,l),
+(938,1396,l),
+(220,1396,l),
+(186,1178,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(852,850,l),
+(884,1068,l),
+(166,1068,l),
+(134,850,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+weight = -300;
+width = 66.6;
+};
+};
+width = 882;
+},
+{
+layerId = "B1F27B51-9973-4381-9301-4FE46FE1CA59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(672,1216,l),
+(672,1256,l),
+(194,1256,l),
+(194,1216,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(672,966,l),
+(672,1006,l),
+(194,1006,l),
+(194,966,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+width = 66.6;
+};
+};
+width = 866;
+},
+{
+layerId = "200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(782,1216,l),
+(792,1256,l),
+(314,1256,l),
+(306,1216,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(742,966,l),
+(750,1006,l),
+(274,1006,l),
+(264,966,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 63;
+verticalShift = 1024;
+width = 66.6;
+};
+};
+width = 866;
+}
+);
+tags = (
+"TODO-opsz"
+);
+unicode = 8316;
+userData = {
+RMXScaler = {
+source = equal;
+};
+};
+}

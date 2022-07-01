@@ -1,0 +1,217 @@
+{
+color = (204,240,242,1);
+glyphname = austral;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = A;
+}
+);
+};
+guides = (
+{
+angle = 90;
+pos = (848,2196);
+}
+);
+layerId = "C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1258,734,l),
+(1258,878,l),
+(30,878,l),
+(30,734,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1258,398,l),
+(1258,544,l),
+(30,544,l),
+(30,398,l)
+);
+},
+{
+ref = Lambda;
+}
+);
+width = 1288;
+},
+{
+background = {
+shapes = (
+{
+ref = A;
+}
+);
+};
+guides = (
+{
+orientation = center;
+angle = 90;
+pos = (-2890,68);
+}
+);
+layerId = "5C20EF92-B63D-42A8-8878-93C2863E0093";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1558,614,l),
+(1558,760,l),
+(22,760,l),
+(22,614,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1558,322,l),
+(1558,468,l),
+(22,468,l),
+(22,322,l)
+);
+},
+{
+ref = Lambda;
+}
+);
+width = 1580;
+},
+{
+guides = (
+{
+angle = 90;
+pos = (2028,2196);
+}
+);
+layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1290,748,l),
+(1316,908,l),
+(88,908,l),
+(62,748,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1232,398,l),
+(1258,558,l),
+(30,558,l),
+(4,398,l)
+);
+},
+{
+ref = Lambda;
+}
+);
+width = 1290;
+},
+{
+layerId = "D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1570,614,l),
+(1592,760,l),
+(56,760,l),
+(34,614,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1522,322,l),
+(1546,468,l),
+(10,468,l),
+(-14,322,l)
+);
+},
+{
+pos = (2,0);
+ref = Lambda;
+}
+);
+width = 1584;
+},
+{
+layerId = "B1F27B51-9973-4381-9301-4FE46FE1CA59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1192,792,l),
+(1192,838,l),
+(70,838,l),
+(70,792,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1192,442,l),
+(1192,488,l),
+(70,488,l),
+(70,442,l)
+);
+},
+{
+alignment = -1;
+ref = Lambda;
+}
+);
+width = 1262;
+},
+{
+layerId = "200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1230,792,l),
+(1240,838,l),
+(116,838,l),
+(108,792,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1172,442,l),
+(1182,488,l),
+(58,488,l),
+(50,442,l)
+);
+},
+{
+alignment = -1;
+ref = Lambda;
+}
+);
+width = 1262;
+}
+);
+metricLeft = A;
+metricRight = A;
+tags = (
+"TODO-opsz"
+);
+unicode = 8371;
+userData = {
+com.typemytype.robofont.guideline.magnetic.TgnBgtDvFt = 5;
+interface.gridadjust.original = "{'width': 1896, 'leftMargin': 41, 'rightMargin': 41}";
+"interface.width-adjustments" = (
+-16
+);
+};
+}

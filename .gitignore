@@ -1,0 +1,7 @@
+build
+_*
+**/*.glyphspackage/UIState.plist
+**/*(*.glyphspackage
+**/*(*.glyphs
+**/*.pyc
+**/*.pyo
