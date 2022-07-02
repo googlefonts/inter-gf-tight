@@ -39,6 +39,11 @@ $(UFODIR)/features: src/features
 	@rm -f $(UFODIR)/features
 	@ln -s ../../src/features $(UFODIR)/features
 
+$(UFODIR)/%-roman.designspace: $(UFODIR)/%.designspace | venv
+	. $(VENV) ; python tools/subset-designspace.py $^ $@
+$(UFODIR)/%-italic.designspace: $(UFODIR)/%.designspace | venv
+	. $(VENV) ; python tools/subset-designspace.py $^ $@
+
 $(UFODIR)/%.designspace: $(UFODIR)/%.glyphs $(UFODIR)/features | venv
 	. $(VENV) ; fontmake -o ufo -g $< --designspace-path $@ \
 		--master-dir $(UFODIR) --instance-dir $(UFODIR)
@@ -105,7 +110,9 @@ $(UFODIR)/%-ExtraBoldItalic.ufo:  $(UFODIR)/%.designspace | venv
 	$(UFODIR)/$(FAMID)-ExtraBold.ufo \
 	$(UFODIR)/$(FAMID)-ExtraBoldItalic.ufo \
 	$(UFODIR)/$(FAMID).glyphs \
-	$(UFODIR)/$(FAMID).designspace
+	$(UFODIR)/$(FAMID).designspace \
+	$(UFODIR)/$(FAMID)-roman.designspace \
+	$(UFODIR)/$(FAMID)-italic.designspace
 
 # ---------------------------------------------------------------------------------
 # products
@@ -126,7 +133,7 @@ $(FONTDIR)/var/%.var.ttf: $(UFODIR)/%.designspace | $(FONTDIR)/var venv
 	. $(VENV) ; fontmake -o variable -m $< --output-path $@ \
 		--overlaps-backend pathops --production-names
 	. $(VENV) ; python tools/postprocess-vf.py $@
-	. $(VENV) ; gftools fix-unwanted-tables -t MVAR $@
+	@#. $(VENV) ; gftools fix-unwanted-tables -t MVAR $@
 
 $(FONTDIR)/var/%.var.otf: $(UFODIR)/%.designspace | $(FONTDIR)/var venv
 	. $(VENV) ; fontmake -o variable-cff2 -m $< --output-path $@ \
@@ -247,8 +254,13 @@ static_web_hinted: \
 	$(FONTDIR)/static-hinted/$(FAMID)-ExtraBoldItalic.woff2
 
 var: $(FONTDIR)/var/$(FAMID).var.ttf
-
 var_web: $(FONTDIR)/var/$(FAMID).var.woff2
+
+var_no_slnt_axis: \
+	  $(FONTDIR)/var/$(FAMID)-roman.var.ttf \
+	  $(FONTDIR)/var/$(FAMID)-italic.var.ttf \
+	  | venv
+	. $(VENV) ; python tools/postprocess-single-axis-vfs.py $^
 
 web: var_web static_web
 
