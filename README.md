@@ -11,3 +11,24 @@ Space differences in UPM, compared to Inter:
 - Regular: -48 U
 - Black:   -24 U
 
+### Build the fonts
+
+1. Clone the repository and open the CLI from that directory or go there with `cd path/to/local/repo` (you can also drap and drop the directory directly in the CLI)
+
+2. Create a virtual environment in the project directory to install the required python package:
+    
+    `python3 -m venv env`
+
+3. Activate the virtual environment:
+    
+    `source env/bin/activate`
+
+4. Install `gftools`:
+    
+    `pip install gftools`
+
+5. Now you can build the font:
+    
+    From the sources directory: `cd sources`
+    
+    Use gftools builder: `gftools builder config.yaml`
