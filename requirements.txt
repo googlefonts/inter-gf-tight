@@ -1,6 +1,1 @@
-fontmake==3.3.*
-fontbakery==0.8.*
-skia-pathops==0.7.*
-gftools==0.9.*
-glyphspkg==0.1.4
-brotli==1.0.*
+gftools
