@@ -120,7 +120,7 @@ name = Subs;
 );
 features = (
 {
-code = "include(features/ccmp.fea);
+code = "include(../features/ccmp.fea);
 ";
 tag = ccmp;
 },
@@ -179,7 +179,8 @@ lookup locl_latn_1 {
 tag = locl;
 },
 {
-code = "include(features/frac.fea);";
+code = "include(../features/frac.fea);
+";
 tag = frac;
 },
 {
@@ -277,12 +278,13 @@ sub trianglebullet by trianglebullet.case;
 tag = case;
 },
 {
-code = "include(features/calt.fea);
+code = "include(../features/calt.fea);
 ";
 tag = calt;
 },
 {
-code = "include(features/dlig.fea);";
+code = "include(../features/dlig.fea);
+";
 tag = dlig;
 },
 {
@@ -326,20 +328,24 @@ sub semicolon by semicolon.tf;
 tag = tnum;
 },
 {
-code = "include(features/zero.fea);";
+code = "include(../features/zero.fea);
+";
 tag = zero;
 },
 {
-code = "include(features/cpsp.fea);";
+code = "include(../features/cpsp.fea);
+";
 notes = "The first two numbers (16 and 0) are the x and y amounts by which a glyph is moved. The second pair of numbers (32 and 0) is the advance, meaning that the cursor will be placed 32 units further in this case. Effectively, this adds 16 units on each side (or 32 between all uppercase letters)";
 tag = cpsp;
 },
 {
-code = "include(features/sups.fea);";
+code = "include(../features/sups.fea);
+";
 tag = sups;
 },
 {
-code = "include(features/subs.fea);";
+code = "include(../features/subs.fea);
+";
 tag = subs;
 },
 {
@@ -351,26 +357,48 @@ sub N o period by numero;
 tag = ordn;
 },
 {
-code = "include(features/salt.fea);";
+code = "include(../features/salt.fea);
+";
 tag = salt;
 },
 {
-code = "include(features/ss01-alt-digits.fea);";
+code = "include(../features/ss01-alt-digits.fea);
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 notes = "Name: ";
 tag = ss01;
 },
 {
-code = "include(features/ss02-disambiguation.fea);";
+code = "include(../features/ss02-disambiguation.fea);
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 notes = "Name: ";
 tag = ss02;
 },
 {
-code = "include(features/ss03-r-curve.fea);";
+code = "include(../features/ss03-r-curve.fea);
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 notes = "Name: ";
 tag = ss03;
 },
 {
-code = "include(features/ss04-disambiguation.fea);
+code = "include(../features/ss04-disambiguation.fea);
 ";
 labels = (
 {
@@ -382,7 +410,7 @@ notes = "Name: ";
 tag = ss04;
 },
 {
-code = "include(features/ss05-tt.fea);
+code = "include(../features/ss05-tt.fea);
 ";
 labels = (
 {
@@ -393,47 +421,58 @@ value = "";
 tag = ss05;
 },
 {
-code = "include(features/cv01-one.fea);";
+code = "include(../features/cv01-one.fea);
+";
 tag = cv01;
 },
 {
-code = "include(features/cv02-four.fea);";
+code = "include(../features/cv02-four.fea);
+";
 tag = cv02;
 },
 {
-code = "include(features/cv03-six.fea);";
+code = "include(../features/cv03-six.fea);
+";
 tag = cv03;
 },
 {
-code = "include(features/cv04-nine.fea);";
+code = "include(../features/cv04-nine.fea);
+";
 tag = cv04;
 },
 {
-code = "include(features/cv05-l-tail.fea);";
+code = "include(../features/cv05-l-tail.fea);
+";
 tag = cv05;
 },
 {
-code = "include(features/cv06-r.fea);";
+code = "include(../features/cv06-r.fea);
+";
 tag = cv06;
 },
 {
-code = "include(features/cv07-germandbls.fea);";
+code = "include(../features/cv07-germandbls.fea);
+";
 tag = cv07;
 },
 {
-code = "include(features/cv08-i-serif.fea);";
+code = "include(../features/cv08-i-serif.fea);
+";
 tag = cv08;
 },
 {
-code = "include(features/cv09-three.fea);";
+code = "include(../features/cv09-three.fea);
+";
 tag = cv09;
 },
 {
-code = "include(features/cv10-g-spur.fea);";
+code = "include(../features/cv10-g-spur.fea);
+";
 tag = cv10;
 },
 {
-code = "include(features/cv11-single-storey-a.fea);";
+code = "include(../features/cv11-single-storey-a.fea);
+";
 tag = cv11;
 },
 {
@@ -240954,6 +240993,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Thin;
 name = "Thin Italic";
+weightClass = 100;
 },
 {
 axesValues = (
@@ -248788,5 +248828,5 @@ com.typemytype.robofont.shouldAddPointsInSplineConversion = 1;
 UFOFormat = 3;
 };
 versionMajor = 3;
-versionMinor = 1;
+versionMinor = 2;
 }
