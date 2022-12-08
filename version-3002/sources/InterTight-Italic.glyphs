@@ -1,6 +1,9 @@
 {
-.appVersion = "3133";
+.appVersion = "3149";
 .formatVersion = 3;
+DisplayStrings = (
+"ʠ"
+);
 axes = (
 {
 name = Weight;
@@ -58184,16 +58187,18 @@ color = 10;
 glyphname = qhook;
 kernLeft = o;
 kernRight = f;
-lastChange = "2022-07-22 10:10:35 +0000";
+lastChange = "2022-12-07 17:13:13 +0000";
 layers = (
 {
 layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
 shapes = (
 {
+alignment = -1;
 ref = q;
 },
 {
-pos = (1152,0);
+alignment = -1;
+pos = (721,0);
 ref = _part.top_r_hook;
 }
 );

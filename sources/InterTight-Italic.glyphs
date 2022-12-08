@@ -160082,7 +160082,7 @@ interface.gridadjust.original = "{'width': 2078, 'leftMargin': 149, 'rightMargin
 {
 color = 10;
 glyphname = addresssubject;
-lastChange = "2022-07-22 10:10:35 +0000";
+lastChange = "2022-12-08 11:01:14 +0000";
 layers = (
 {
 layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
@@ -160132,7 +160132,7 @@ ref = fraction;
 },
 {
 alignment = -1;
-pos = (1122,-743);
+pos = (1287,256);
 ref = s.subs;
 }
 );
@@ -219820,7 +219820,7 @@ color = 6;
 glyphname = l.ss02;
 kernLeft = B;
 kernRight = H;
-lastChange = "2022-07-22 10:10:35 +0000";
+lastChange = "2022-12-08 11:02:50 +0000";
 layers = (
 {
 anchors = (
@@ -219875,7 +219875,7 @@ pos = (249,0);
 },
 {
 name = cross;
-pos = (315,788);
+pos = (320,788);
 },
 {
 name = raccent;
@@ -220092,7 +220092,7 @@ color = 10;
 glyphname = lmidtilde.ss02;
 kernLeft = B;
 kernRight = H;
-lastChange = "2022-12-07 14:34:28 +0000";
+lastChange = "2022-12-08 11:02:50 +0000";
 layers = (
 {
 layerId = "11F4534A-B963-4AB5-820F-DAF9A20CD933";
@@ -220114,7 +220114,7 @@ shapes = (
 ref = l.ss02;
 },
 {
-pos = (-196,20);
+pos = (-191,20);
 ref = _tildecross.cn;
 }
 );
